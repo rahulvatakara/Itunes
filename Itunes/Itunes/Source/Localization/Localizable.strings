@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Itunes
+
+  Created by RAHUL CK on 12/17/22.
+  
+*/
+"home.failedalert.title" = "Failed";
+"home.failedalert.message" = "Seach failed. Please try again with valid queries.";
+"generic.okay" = "okay";
+"home.screen.descrip" = "Search for a variety of content from the iTunes Store ; including iBooks, movies, podcasts, music, music videos, and audiobooks.";
+"home.screen.field.descrip" = "Specify the parameter for the content to be searched";
+
+"itunes.itunes" = "Itunes";
+"itunes.searchResult" = "Search Results";
