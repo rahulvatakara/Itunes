@@ -44,6 +44,9 @@
 		31218476294E149800C07BF3 /* HomeViewRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31218475294E149800C07BF3 /* HomeViewRouterTest.swift */; };
 		31218478294E1CC300C07BF3 /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31218477294E1CC300C07BF3 /* MockNavigationController.swift */; };
 		3121847A294E1F2B00C07BF3 /* HomeViewPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31218479294E1F2B00C07BF3 /* HomeViewPresenterTest.swift */; };
+		31ABA718294F431C00CB1DEF /* SearchResultInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABA717294F431C00CB1DEF /* SearchResultInteractorTest.swift */; };
+		31ABA71A294F43D900CB1DEF /* MockSearchResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABA719294F43D900CB1DEF /* MockSearchResultPresenter.swift */; };
+		31ABA71C294F49BA00CB1DEF /* SearchResultPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABA71B294F49BA00CB1DEF /* SearchResultPresenterTest.swift */; };
 		6A3CAED8F9AFDCF147288D35 /* Pods_ItunesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD55A361BA8D799FCB90595C /* Pods_ItunesTests.framework */; };
 		D7A42E4C294240F200521E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A42E4B294240F200521E0F /* Assets.xcassets */; };
 		D7A42E5A294240F200521E0F /* ItunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A42E59294240F200521E0F /* ItunesTests.swift */; };
@@ -96,6 +99,9 @@
 		31218475294E149800C07BF3 /* HomeViewRouterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouterTest.swift; sourceTree = "<group>"; };
 		31218477294E1CC300C07BF3 /* MockNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationController.swift; sourceTree = "<group>"; };
 		31218479294E1F2B00C07BF3 /* HomeViewPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenterTest.swift; sourceTree = "<group>"; };
+		31ABA717294F431C00CB1DEF /* SearchResultInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultInteractorTest.swift; sourceTree = "<group>"; };
+		31ABA719294F43D900CB1DEF /* MockSearchResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchResultPresenter.swift; sourceTree = "<group>"; };
+		31ABA71B294F49BA00CB1DEF /* SearchResultPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultPresenterTest.swift; sourceTree = "<group>"; };
 		35E83369FB00A8C6F46BF2A2 /* Pods-Itunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Itunes.release.xcconfig"; path = "Target Support Files/Pods-Itunes/Pods-Itunes.release.xcconfig"; sourceTree = "<group>"; };
 		43D50CFB5D7E410BFF163486 /* Pods-Itunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Itunes.debug.xcconfig"; path = "Target Support Files/Pods-Itunes/Pods-Itunes.debug.xcconfig"; sourceTree = "<group>"; };
 		909C5A06CC12E7EC506047C1 /* Pods-ItunesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesTests.release.xcconfig"; path = "Target Support Files/Pods-ItunesTests/Pods-ItunesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +269,8 @@
 		31218464294DF99100C07BF3 /* SearchResult */ = {
 			isa = PBXGroup;
 			children = (
+				31ABA717294F431C00CB1DEF /* SearchResultInteractorTest.swift */,
+				31ABA71B294F49BA00CB1DEF /* SearchResultPresenterTest.swift */,
 			);
 			path = SearchResult;
 			sourceTree = "<group>";
@@ -275,6 +283,7 @@
 				3121846D294E089000C07BF3 /* MockHomeViewWorker.swift */,
 				3121846F294E0B6200C07BF3 /* MockHomeViewPresenter.swift */,
 				31218477294E1CC300C07BF3 /* MockNavigationController.swift */,
+				31ABA719294F43D900CB1DEF /* MockSearchResultPresenter.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -578,13 +587,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ABA718294F431C00CB1DEF /* SearchResultInteractorTest.swift in Sources */,
 				31218466294DFA1900C07BF3 /* HomeViewInteractorTest.swift in Sources */,
 				31218476294E149800C07BF3 /* HomeViewRouterTest.swift in Sources */,
+				31ABA71C294F49BA00CB1DEF /* SearchResultPresenterTest.swift in Sources */,
 				D7A42E5A294240F200521E0F /* ItunesTests.swift in Sources */,
 				31218469294E017D00C07BF3 /* MockAPIManager.swift in Sources */,
 				31218472294E101000C07BF3 /* HomeViewWorkerTest.swift in Sources */,
 				3121846E294E089000C07BF3 /* MockHomeViewWorker.swift in Sources */,
 				3121847A294E1F2B00C07BF3 /* HomeViewPresenterTest.swift in Sources */,
+				31ABA71A294F43D900CB1DEF /* MockSearchResultPresenter.swift in Sources */,
 				31218470294E0B6200C07BF3 /* MockHomeViewPresenter.swift in Sources */,
 				31218478294E1CC300C07BF3 /* MockNavigationController.swift in Sources */,
 			);

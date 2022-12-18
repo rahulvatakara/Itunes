@@ -39,7 +39,7 @@ struct SearchItem: Codable {
         }
 
     func imageUrl() -> String? {
-        artworkUrl30 ?? artworkUrl60 ?? artworkUrl100
+        artworkUrl100 ?? artworkUrl60 ?? artworkUrl30
     }
     func title() -> String {
         artistName ?? trackName ?? ""
